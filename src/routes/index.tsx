@@ -1,6 +1,9 @@
 import { createFileRoute } from '@tanstack/react-router'
-import App from '../App'
 
 export const Route = createFileRoute('/')({
-  component: App,
+  component: HomePage,
 })
+
+function HomePage() {
+  return <h1>oracle_front</h1>
+}
