@@ -1,9 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router'
+import { ChatPage } from '@/features/chat'
 
 export const Route = createFileRoute('/')({
-  component: HomePage,
+  component: ChatPage,
 })
-
-function HomePage() {
-  return <h1>oracle_front</h1>
-}
